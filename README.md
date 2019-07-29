@@ -3,6 +3,17 @@ Harbor Deployment template
 
 Ansible project structure, with automation scripts.
 
+## Requirements
+
+- Ansible
+- Ansible Vault
+- Makefile
+- Python 3
+- GIT
+- sshpass
+- Bash
+- PyYAML (`pip3 install PyYAML`)
+
 ## Scripts
 
 ### SSH
