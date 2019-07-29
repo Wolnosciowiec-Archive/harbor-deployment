@@ -14,7 +14,31 @@ Ansible project structure, with automation scripts.
 - Bash
 - PyYAML (`pip3 install PyYAML`)
 
-## Scripts
+## Quick start
+
+```
+git clone https://github.com/riotkit-org/harbor-deployment deploy
+cd deploy
+# ... put your inventory, fill in group_vars, host_vars, etc. ...
+
+# do a deploy
+make deploy@prod
+```
+
+## Commands
+
+### Deploying
+
+```
+# deploy first time, entering the host, user, password manually
+make deploy_first_time@prod
+
+# deploy any more time
+make deploy@prod
+
+# passing parameters to Ansible
+make deploy@prod ANSIBLE_OPTS="-t project"
+```
 
 ### SSH
 
