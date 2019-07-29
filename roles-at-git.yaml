@@ -1,0 +1,25 @@
+roles:
+    blackandred.server_multi_user:
+        url: https://github.com/zwiazeksyndykalistowpolski/server-multi-user.git
+        version: master
+
+    blackandred.server_docker_project:
+        url: https://github.com/zwiazeksyndykalistowpolski/server-docker-project.git
+        version: master
+
+    blackandred.server_secure_storage:
+        url: https://github.com/zwiazeksyndykalistowpolski/server-secure-storage.git
+        version: master
+
+    blackandred.server_ssh_fallback_port:
+        url: https://github.com/zwiazeksyndykalistowpolski/server-ssh-fallback-port.git
+        version: master
+
+    blackandred.server_basic_security:
+        url: https://github.com/zwiazeksyndykalistowpolski/server-basic-security.git
+        version: master
+
+    blackandred.server_basic_software:
+        url: https://github.com/zwiazeksyndykalistowpolski/server-basic-software.git
+        version: master
+
